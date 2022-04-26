@@ -44,8 +44,14 @@ int main()
         	cout << "Enter how many times you want the Splice&Diced word to repeat: ";
         	cin >> uCopies;
         	try{
-				splitString();
-        	} 
+        		size = stoi(uSize);
+        		copies = stoi(uCopies);
+				if ()
+					splitString();
+				
+        	} catch (...) {
+        		cout << "Please ensure size and copies are vaild integers" << endl;
+        	}
         }
 	} while(answer == "y");
 }
